@@ -3,6 +3,7 @@ import './App.css'
 import Header from "./Components/Header"
 import Footer from "./Components/Footer"
 import Sidebar from "./Components/Sidebar"
+import CreatePost from "./Components/CreatePost"
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
      <Sidebar></Sidebar>
      
     <div className="content"><Header></Header>
+    <CreatePost></CreatePost>
      <Footer></Footer></div>
      </div>
     </>
